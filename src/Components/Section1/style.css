@@ -1,0 +1,24 @@
+.section1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/93f996d6b66e562e8c8490a4/12798min.jpg");
+    /* background-position: inherit; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 52.73% 50%;
+    margin-top: 75px;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media only screen and (min-width:600px){
+    .section{
+        height: 135px;
+    }
+}
+
+/* @media only screen and (max-width:600px) {
+    .section1 {
+        background-position: right;
+    }
+} */
